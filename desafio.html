@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="desafio.css">
+</head>
+<body>
+    <header>
+        <h1>SyncTur</h1>
+    </header>
+
+    <main>
+        <section id="cadastrar">
+
+            <div class="titulo">
+                <h2>Cadastrar Pacotes</h2>
+
+                <br><br>
+            </div>
+
+            <div class="pacote_e_descricao_ajuste">
+                <div class="pacote">
+                    <h2>Pacote</h2><br>
+                        <input type="text" id="nome" placeholder="Digite o nome completo">
+                        <br><br>
+
+                        <div class="status_e_data_ajuste">
+
+                            <div class="status">
+
+                                <h2>Status de Pacote</h2>
+
+                                <br>
+
+                                <form>
+
+                                    <input type="radio" id="Ativo">
+                                    <label for="Ativo">Ativo</label>
+    
+                                    <br><br>
+    
+                                    <input type="radio" id="inativo" name="inativo" value="Inativo">
+                                    <label for="inativo">Inativo</label>
+
+                                </form>
+
+                            </div>
+
+                            <div class="data">
+
+                                <h2>Data da Viagem</h2>
+
+                                <br>
+
+                                <input type="date" id="data" placeholder="Data">
+
+                            </div>
+
+                        </div>
+
+                </div>
+
+                <div class="descricao">
+
+                    <h2>Descrição</h2>
+
+                    <br>
+
+                    <textarea name="descricao" id="descricao" placeholder="Descrição do pacote"></textarea>
+
+                </div>
+            </div>
+
+            <br><br>
+            <div class="botao_cadastrar">
+                <button type="submit" onclick="Cadastrar()" id="botao_cadastro">Cadastrar</button>
+                <button><a href="#top"></a></button>
+            </div>
+        </section>
+
+        <br><br>
+
+        <section class="pacotes">
+
+            <!-- <div class="pacoteX">
+                <h2>Pacote X</h2>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia est soluta blanditiis odit culpa voluptatum architecto, fugiat facere libero ratione distinctio error iusto eos laborum sunt accusamus! Amet, expedita veritatis?</p>
+
+                <div class="data_viagem">
+
+                </div>
+
+                <div class="botoes">
+                    <button type="reset" class="excluir">Excluir</button>
+
+                    <button type="submit" class="editar">Editar</button>
+                </div> 
+
+            </div> -->
+
+        </section>
+    </main>
+
+    <footer>
+        <h2>SyncTur</h2>
+
+        <div class="linha"></div>
+
+        <p>
+            Company Inc., 8901 Marmora Road, Glasgow, D04 89GR
+            <br><br>
+            Call us now toll free: (800)2345-6789
+            <br><br>
+            Customer support: support@demolink.org
+            <br><br>
+            Skype: sample-username
+        </p>
+    </footer>
+
+    <script>var exports = {};</script>
+    <script src="desafio.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    margin: auto;
+    width: 1440px;
+    font-family: "Inter";
+}
+
+header{
+    height: 48px;
+    width: 1440px;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    padding-top: 11px;
+    padding-left: 18px;
+}
+
+main{
+    margin: 0px 120px;
+}
+
+#cadastrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pacote_e_descricao_ajuste{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pacote{
+    width: 550px;
+}
+
+.pacote #nome{
+    width: 550px;
+    height: 38px;
+}
+
+.descricao{
+    width: 550px;
+}
+
+.descricao #descricao{
+    width: 550px;
+    height: 185px;
+}
+
+.status_e_data_ajuste{
+    display: flex;
+    justify-content: space-between;
+}
+
+.status{
+    width: 225px;
+}
+
+.data{
+    width: 225px;
+}
+
+.data #data{
+    width: 225px;
+}
+
+#botao_cadastro{
+    width: 109px;
+    height: 39px;
+    color: white;
+    background-color: #8458ff;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+#botao_cadastro:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: white;
+    color: black;
+    border:solid 2px #8458ff;
+}
+
+.pacoteX{
+    width: 1100px;
+    height: 270px;
+    border: solid 2px black;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px 50px;
+}
+
+.pacoteY{
+    width: 1100px;
+    height: 270px;
+    border: solid 2px black;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px 50px;
+}
+
+.pacoteZ{
+    width: 1100px;
+    height: 270px;
+    border: solid 2px black;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px 50px;
+}
+
+.excluir{
+    width: 78px;
+    height: 39px;
+    color: white;
+    background-color: #dc3545;
+    border-radius: 4px;
+    margin-right: 15px;
+    transition-duration: 0.4s;
+}
+
+.excluir:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: white;
+    color: black;
+    border:solid 2px #dc3545;
+}
+
+.editar{
+    width: 78px;
+    height: 39px;
+    color: white;
+    background-color: #ffc107;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+.editar a{
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.editar a:hover{
+    color: black;
+}
+
+.editar:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: white;
+    color: black;
+    border:solid 2px #ffc107; 
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+p{
+    font-size: 16px;
+}
+
+footer{
+    width: 1458px;
+    height: 250px;
+    color: white;
+    background-color: #F6511D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha{
+    margin: 50px;
+    width: 2px;
+    height: 180px;
+    background-color: white;
+}
+
+
+
+footer h2{
+    margin-bottom: 110px;
+    font-size: 40px;
+}
+
+footer p{
+    font-size: 18px;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: white;
+
+}
+
